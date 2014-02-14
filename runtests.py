@@ -16,7 +16,7 @@ settings.configure(
         "django.contrib.contenttypes",
         "django.contrib.sites",
         "jsonfield",
-        "coinbase",
+        "djnago_coinbase",
     ],
     SITE_ID=1,
     COINBASE_SHARED_SECRET="",

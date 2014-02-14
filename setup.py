@@ -103,7 +103,7 @@ def find_package_data(
     return out
 
 
-PACKAGE = "coinbase"
+PACKAGE = "django_coinbase"
 NAME = "django-coinbase"
 DESCRIPTION = "a Django app for receiving payment notifications from Coinbase"
 AUTHOR = "Patrick Altman"
