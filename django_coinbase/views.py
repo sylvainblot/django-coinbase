@@ -11,5 +11,5 @@ from .models import Order
 def handle_order_callback(request):
     if settings.COINBASE_SHARED_SECRET != request.GET.get("secret"):
         return HttpResponseForbidden()
-    Order.process(json.loads(request.body))
+    Order.process(json.loads(request.read()))
     return HttpResponse()
